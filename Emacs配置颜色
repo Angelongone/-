@@ -1,0 +1,10 @@
+http://www.cnblogs.com/holbrook/archive/2012/03/06/2381636.html
+Emacs的配置文件在~/.emacs。现在就用Emacs打开这个文件吧，如果没有就创建一个。首先改一下颜色配置，让Emacs看起来更酷一些:
+
+(set-background-color "black") ;; 使用黑色背景
+(set-foreground-color "white") ;; 使用白色前景
+(set-face-foreground 'region "green")  ;; 区域前景颜色设为绿色
+(set-face-background 'region "blue") ;; 区域背景色设为蓝色
+
+
+尽管可以重启Emacs使配置生效，但更快捷的方式是在打开~/.emacs的时候执行命令M-x eval-buffer，就可以使配置文件立即生效。
