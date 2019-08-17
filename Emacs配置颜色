@@ -8,3 +8,18 @@ Emacs的配置文件在~/.emacs。现在就用Emacs打开这个文件吧，如�
 
 
 尽管可以重启Emacs使配置生效，但更快捷的方式是在打开~/.emacs的时候执行命令M-x eval-buffer，就可以使配置文件立即生效。
+
+
+
+
+Emacs不可以输入中文解决方法
+
+1.#  locale -a | grep "zh_CN"     //查询版本  一般是  zh_CN.utf8
+
+2.编辑文件  ~/.bashrc
+
+  #  vim ~/.bashrc
+  
+  在文件中添加：  export LC_CTYPE="zh_CN.utf8"
+  
+  zh_CN.utf8  是自己的版本号，一定要相同。
