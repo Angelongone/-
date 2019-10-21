@@ -77,6 +77,12 @@ set softtabstop=2
 set shiftwidth=2
 set autoindent
 
+ """"""""""""""" 将空格键当作快捷键 """"""""""""""""""
+ let mapleader=" "
+ map <leader>wq :wq<CR>
+ map <leader>q :q<CR>
+ map <leader>w :w<CR>
+
 
 """"""""""""""""""""""" 树"""""""""""""""""""""""
 map ff :NERDTreeMirror<CR>
