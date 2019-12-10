@@ -96,6 +96,8 @@ map <leader>o :tabo<CR>
 map <leader>c :tabc<CR>
 map <leader>ew :tabnew
 map <leader>a <C-w>
+map <leader>j :! 
+
 """"""""""""""""""""""" 树"""""""""""""""""""""""
 map ff :NERDTreeMirror<CR>
 map ff :NERDTreeToggle<CR>
